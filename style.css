@@ -271,6 +271,9 @@ a:hover {
 .voffset-lg {
     margin-top: 80px;
 }
+.image {
+    width: 100%;
+}
 
 .row-no-gutters {
     margin-right: 0;
@@ -368,7 +371,7 @@ a:hover {
         top: 50%;
         right: 20px;
         transform: translate(0, -50%);
-        -webkit-transform: translateY(-50%);
+        transform: translateY(-50%);
     }
     .nav > li .dropdown-menu a,
     .nav > li .dropdown-menu a:hover {
@@ -438,6 +441,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    font-size: 20px !important;
 }
 
 .mg-lg {
@@ -478,8 +482,13 @@ button {
 .icon-md {
     font-size: 30px!important;
     padding: 10px;
+    
 }
 
+.a {
+    color: transparent;
+
+}
 .icon-lg {
     font-size: 60px!important;
 }
@@ -552,7 +561,7 @@ a[data-lightbox]:hover::before {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 a[data-lightbox]:hover img {
@@ -841,6 +850,9 @@ footer .white {
     font-weight: 700;
 }
 
+.text-center {
+    font-size: 18px;
+}
 .text-center + .white{
     color: #FFFFFF !important;
 }
@@ -857,7 +869,25 @@ label {
     font-size: 18px;
     text-align: center;
 }
+.text-center-description {
+    /* display: flex; */
+    justify-content: center;
+}
+.text-center-description> p {
+    text-align: center;
+    font-size: 22px;
+    color: #686868;
+}
 
+.text-center-cote {
+    justify-content: center;
+}
+.text-center-cote> p {
+    text-align: center;
+    font-size: 22px;
+    color: #686868;
+    font-style: italic;
+}
 @media only screen and (max-width: 1024px) {
 
     .bloc {
@@ -952,9 +982,9 @@ label {
     }
     .site-navigation {
         position: inherit;
-        transform: none;
+        /* transform: none;
         -webkit-transform: none;
-        -ms-transform: none;
+        -ms-transform: none; */
     }
     .nav > li {
         margin-top: 0;
