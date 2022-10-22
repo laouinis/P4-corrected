@@ -788,6 +788,7 @@ h4 {
 
 .tc-white {
     color: #FFFFFF!important;
+    font-size: 24px !important;
 }
 
 .btn-atomic-tangerine {
@@ -851,7 +852,7 @@ footer .white {
 }
 
 .text-center {
-    font-size: 18px;
+    font-size: 24px;
 }
 .text-center + .white{
     color: #FFFFFF !important;
