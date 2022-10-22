@@ -988,9 +988,7 @@ label {
     }
     .site-navigation {
         position: inherit;
-        /* transform: none;
-        -webkit-transform: none;
-        -ms-transform: none; */
+        transform: none;
     }
     .nav > li {
         margin-top: 0;
