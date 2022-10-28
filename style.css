@@ -916,6 +916,11 @@ label {
 .col-sm-12 p {
     color: #000000 !important;
 }
+
+.form-group + label {
+    color: #000000;
+}
+
 @media only screen and (max-width: 1024px) {
 
     .bloc {
