@@ -894,6 +894,10 @@ label {
     margin: 0 15px;
     padding: 15px;
 }
+
+.text-center-cote .name {
+    font-size: larger;
+}
 .text-center-cote> p {
     text-align: center;
     font-size: 22px;
@@ -905,6 +909,13 @@ label {
     font-size: 34px !important;
 }
 
+.tc-black {
+    color: #000000 !important;
+}
+
+.col-sm-12 p {
+    color: #000000 !important;
+}
 @media only screen and (max-width: 1024px) {
 
     .bloc {
