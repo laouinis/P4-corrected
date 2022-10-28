@@ -921,6 +921,12 @@ label {
     color: #000000;
 }
 
+.form-group, label {
+    color: #000000 !important;
+}
+.contact {
+    color: #000000 !important;
+}
 @media only screen and (max-width: 1024px) {
 
     .bloc {
