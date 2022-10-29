@@ -441,7 +441,7 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
-    font-size: 20px !important;
+    font-size: 22px !important;
 }
 
 .mg-lg {
@@ -490,8 +490,8 @@ button {
 
 .a {
     color: transparent;
-
 }
+
 .icon-lg {
     font-size: 60px!important;
 }
@@ -667,7 +667,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000!important;
 }
 
 .container {
@@ -693,7 +693,7 @@ a {
 }
 
 p {
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -809,7 +809,7 @@ h4 {
 }
 
 .ltc-white {
-    color: #FFFFFF!important;
+    color: #000000 !important;
 }
 
 .ltc-white:hover {
@@ -858,16 +858,9 @@ footer .white {
     font-weight: 700;
 }
 
-.text-center {
-    font-size: 24px !important;
-}
-.text-center + .white{
+/* .text-center + .white{
     color: #FFFFFF !important;
-}
-
-.tc-white {
-    color: #FFFFFF !important;
-}
+} */
 
 label {
     font-size: 20px;
@@ -899,7 +892,7 @@ label {
 }
 
 .text-center-cote .name {
-    font-size: larger;
+    font-size: 20px;
 }
 .text-center-cote> p {
     text-align: center;
@@ -926,6 +919,11 @@ label {
 
 .form-group, label {
     color: #000000 !important;
+}
+
+.row> .tc-white {
+    color: #FFFFFF !important;
+    font-size: 22px !important;
 }
 .contact {
     color: #000000 !important;
