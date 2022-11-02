@@ -798,6 +798,11 @@ h4 {
     font-size: 20px !important;
 }
 
+.title{
+    color: #FFFFFF!important;
+    font-size: 20px !important;
+}
+
 .btn-atomic-tangerine {
     background: #F3976C;
     color: #000!important;
@@ -923,7 +928,7 @@ label {
 
 .row> .tc-white {
     color: #FFFFFF !important;
-    font-size: 22px !important;
+    font-size: 30px !important;
 }
 .contact {
     color: #000000 !important;
